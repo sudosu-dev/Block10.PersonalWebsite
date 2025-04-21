@@ -15,8 +15,8 @@ body {
 
 .main-header,
 footer {
-  background-color: #547792;
-  color: #ecefca;
+  background-color: #94b4c1;
+  color: #213448;
 }
 
 .main-header {
@@ -26,7 +26,7 @@ footer {
 }
 
 .main-header nav a {
-  color: #ecefca;
+  color: #213448;
   text-decoration: none;
 }
 
@@ -38,13 +38,22 @@ main {
 
 .left-column,
 .right-column {
-  background-color: #213448;
+  background-color: #547792;
   padding: 1rem;
 }
 
 .center-column {
-  background-color: #94b4c1;
+  background-color: #213448;
+  color: #ecefca;
   padding: 2rem;
+}
+
+.center-column blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid #ecefca;
 }
 
 footer {
@@ -55,4 +64,24 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.profile-pic {
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.intro-text {
+  flex: 1;
+  line-height: 1.6;
+  color: #ecefca;
+}
+
+.profile-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
 }
