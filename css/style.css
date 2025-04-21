@@ -135,3 +135,7 @@ footer {
   align-items: flex-start;
   margin-bottom: 2rem;
 }
+
+.heading-space {
+  padding-top: 2rem;
+}
