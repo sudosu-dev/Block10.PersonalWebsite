@@ -23,6 +23,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .main-header nav ul {
@@ -106,7 +107,7 @@ footer {
 }
 
 .github-icon:hover {
-  transform: scale(1.3);
+  transform: scale(1.3) rotate(15deg);
 }
 
 .wrapper {
