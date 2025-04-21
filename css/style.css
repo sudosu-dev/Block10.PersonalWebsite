@@ -25,9 +25,24 @@ footer {
   align-items: center;
 }
 
+.main-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
 .main-header nav a {
   color: #213448;
   text-decoration: none;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.main-header nav a:hover {
+  background-color: #ecefca;
+  color: #213448;
+  border-radius: 4px;
 }
 
 main {
@@ -56,10 +71,44 @@ main {
   border-left: 4px solid #ecefca;
 }
 
+.left-column,
+.right-column {
+  list-style: square;
+  padding-left: 1.5rem;
+  /* margin-top: 0.5rem; */
+}
+
+.left-column li,
+.right-column li {
+  margin-bottom: 0.25rem;
+}
+
+.right-column a {
+  color: #ecefca;
+  text-decoration: none;
+}
+
+.right-column a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 1rem;
 }
+
+.github-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-bottom: 0.3rem;
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover {
+  transform: scale(1.3);
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
