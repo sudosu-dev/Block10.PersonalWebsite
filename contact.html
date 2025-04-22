@@ -19,17 +19,29 @@
         </nav>
       </header>
       <main>
-        <div class="left-column">
-        </div>
+        <div class="left-column"></div>
         <div class="center-column">
           <h2>Contact Me</h2>
           <p>Please reach out to me using the form below!</p>
-        <div class="right-column">
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
+        <div class="right-column"></div>
       </main>
       <footer>
         <a href="https://github.com/sudosu-dev" target="_blank">
-          <img src="./img/github-icon.svg" alt="Github logo" class="github-icon" />
+          <img
+            src="./img/github-icon.svg"
+            alt="Github logo"
+            class="github-icon"
+          />
         </a>
         <p>&copy; 2025 Matthew Sharp | Web Developer Portfolio</p>
       </footer>
